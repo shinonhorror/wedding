@@ -1,11 +1,12 @@
 import React, { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
+import './fonts.css';
 
 const container = document.getElementById('root') as HTMLElement;
 
 const initialChildren = (
   <StrictMode>
-    <div>Hello!</div>
+    <div style={{ fontFamily: 'Lena', fontSize: '24px' }}>Hello!</div>
   </StrictMode>
 );
 
