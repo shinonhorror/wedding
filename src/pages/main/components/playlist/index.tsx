@@ -40,7 +40,7 @@ const Player = () => {
         src={playlist[currentTrack].src}
         onClickNext={handleClickNext}
         showSkipControls
-        volume={0}
+        volume={0.5}
         showJumpControls={false}
         onEnded={handleEnd}
         autoPlay
