@@ -14,5 +14,5 @@ export const Wrapper = styled.section`
 export const LoveImage = styled.img`
   max-width: 900px;
   width: 100%;
-  margin: 54px 0;
+  margin-top: 54px;
 `;

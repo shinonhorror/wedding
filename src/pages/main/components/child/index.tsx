@@ -12,7 +12,7 @@ const ChildSection = () => {
         layout
         initial={{ y: 40, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.6, ease: 'easeOut' }}
+        transition={{ duration: 0.8, ease: 'easeOut' }}
       >
         <S.Title>Мы женимся.</S.Title>
       </motion.div>
@@ -20,7 +20,7 @@ const ChildSection = () => {
         layout
         initial={{ y: 40, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.6, delay: 0.2, ease: 'easeOut' }}
+        transition={{ duration: 0.8, delay: 0.3, ease: 'easeOut' }}
       >
         <S.Description>
           Да, не ошиблись, это точно свадьба. <br /> Да, согласились оба. <br />
@@ -32,7 +32,7 @@ const ChildSection = () => {
         layout
         initial={{ y: 40, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.6, delay: 0.4, ease: 'easeOut' }}
+        transition={{ duration: 0.8, delay: 0.4, ease: 'easeOut' }}
       >
         <S.ImageWrapper>
           <motion.img
