@@ -129,4 +129,31 @@ export const GlobalStyle = createGlobalStyle`
       }
 
     }
+
+    .rhap_container  {
+      position: fixed;
+      bottom: 0;    
+      left: 0;
+      width: 100%;
+      margin: 0 auto;   
+      background-color: transparent;
+      backdrop-filter: blur(40px);
+      z-index: 10000;
+
+      button {
+        color: #702833;
+      }
+
+      .rhap_progress-filled {
+        background-color: #702833;
+      }
+
+      .rhap_download-progress {
+        background-color: #F4EEE4;
+      }
+
+      .rhap_progress-indicator {
+        background-color: #702833;
+      }
+    }
 `;

@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from 'react';
 import CalendarSection from './components/calendar';
 import ChildSection from './components/child';
 import DetailsSection from './components/details';
@@ -9,10 +10,12 @@ import TimerSection from './components/timer';
 import WaitingSection from './components/wating';
 import WelcomeSection from './components/welcome';
 import * as S from './styled';
+import Player from './components/playlist';
 
 const Main = () => {
   return (
     <S.Wrapper>
+      <Player />
       <ChildSection />
       <WelcomeSection />
       <CalendarSection />

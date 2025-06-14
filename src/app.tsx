@@ -12,6 +12,7 @@ const initialChildren = (
   <StrictMode>
     <GlobalStyle />
     <Layout>
+    
       <Main />
     </Layout>
   </StrictMode>

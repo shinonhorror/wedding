@@ -55,7 +55,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.(png|jpg|gif)$/i,
+        test: /\.(png|jpg|gif|mp3)$/i,
         loader: 'file-loader',
         exclude: /node_modules/,
         options: {
