@@ -6,6 +6,7 @@ export const Wrapper = styled.main`
   gap: 100px;
   width: 100%;
   margin-bottom: 88px;
+  overflow: hidden;
 
   @media (max-width: 1024px) {
     gap: 64px;

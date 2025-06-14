@@ -4,8 +4,96 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Наконец-то наша свадьба!</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100%;
+            height: 100dvh;
+            position: relative;
+            font-family: "Lena";
+            background-color: #F4EEE4;
+        }
+
+        #preloader {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transition: opacity 0.3s ease;
+        }
+
+        #preloader.hidden {
+            opacity: 0;
+        }
+
+        .loader {
+            width: 50px;
+            height: 165px;
+            position: relative;
+        }
+        .loader::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            transform: translate(-50% , 0);
+            width: 16px;
+            height: 16px;
+            background: #702833;
+            border-radius: 50%;
+            animation: bounce 2s linear infinite;
+        }
+        .loader::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            height: 48px;
+            width: 48px;
+            background: #605e23;
+            border-radius: 4px;
+            animation: rotate 2s linear infinite;
+        }
+
+        @keyframes bounce {
+            0% , 50% , 100%{
+                transform: translate(-50%, 0px);
+                height: 20px;
+            }
+            20% {
+                transform: translate(-25%, 85px);
+                height: 28px;
+            }
+            25% {
+                transform: translate(-25%, 110px);
+                height: 12px;
+            }
+            70% {
+                transform: translate(-75%, 85px);
+                height: 28px;
+            }
+            75% {
+                transform: translate(-75%, 108px);
+                height: 12px;
+            }
+        }
+        @keyframes rotate {
+            0% , 50% , 100%{ transform: rotate(0deg)}
+            25% { transform: rotate(90deg)}
+            75%{ transform: rotate(-90deg)}
+        }
+    </style>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+    </div>
   </body>
 </html>

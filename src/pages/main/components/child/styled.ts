@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 export const Wrapper = styled.section`
   svg {
@@ -37,9 +37,4 @@ export const ImageWrapper = styled.div`
       width: 100%;
     }
   }
-`;
-
-export const LoveImage = styled.img`
-  max-width: 900px;
-  width: 100%;
 `;
