@@ -10,6 +10,7 @@ import TimerSection from './components/timer';
 import WaitingSection from './components/wating';
 import WelcomeSection from './components/welcome';
 import * as S from './styled';
+import LoveImageSection from './components/loveImage';
 import Player from './components/playlist';
 
 const Main = () => {
@@ -17,6 +18,7 @@ const Main = () => {
     <S.Wrapper>
       <Player />
       <ChildSection />
+      <LoveImageSection />
       <WelcomeSection />
       <CalendarSection />
       <LocationSection />

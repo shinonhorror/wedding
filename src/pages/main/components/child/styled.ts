@@ -38,8 +38,3 @@ export const ImageWrapper = styled.div`
     }
   }
 `;
-
-export const LoveImage = styled.img`
-  max-width: 900px;
-  width: 100%;
-`;

@@ -127,6 +127,9 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         list-style-type: none;
       }
+      
+      
+      
 
     }
 
