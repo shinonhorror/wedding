@@ -46,7 +46,7 @@ const Main = () => {
           initial="hidden"
           whileInView="visible"
           transition={{ duration: 0.6, delay: 0.2,  ease: 'easeOut' }}
-          viewport={{ once: true, amount: 0.25,}}
+          viewport={{ once: true, amount: 0.3,}}
         >
           {Section.component}
         </motion.section>
