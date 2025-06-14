@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 
 const ChildSection = () => {
   return (
-    <S.Wrapper style={{ minHeight: '600px' }}>
+    <S.Wrapper>
       <motion.div
         layout
         initial={{ y: 40, opacity: 0 }}
