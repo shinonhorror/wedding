@@ -1,5 +1,6 @@
 import * as S from './styled';
 import Colors from '../../../../assets/images/dresscode.png';
+import { motion } from 'framer-motion';
 
 const DresscodeSection = () => {
   return (
@@ -13,7 +14,16 @@ const DresscodeSection = () => {
         Не обязательно следовать на 100%, но если вы придёте в одном из этих
         цветов — мы будем просто в восторге!
       </S.Description>
-      <img src={Colors} alt="" />
+      <motion.img
+        src={Colors}
+        alt=""
+        animate={{ rotate: 360 }}
+        transition={{
+          duration: 150,
+          repeat: Infinity,
+          ease: 'linear'
+        }}
+      />
     </S.Wrapper>
   );
 };

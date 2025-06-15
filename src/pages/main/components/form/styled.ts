@@ -16,9 +16,13 @@ export const Button = styled.button`
   font-size: 54px;
   border-radius: 24px;
   cursor: pointer;
-  transition: 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   outline: none;
   border: none;
+
+  &:hover {
+    transform: scale(1.03);
+  }
 
   @media (max-width: 1024px) {
     font-size: 32px;
